@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta property="og:title" content="Quick note pad for Chromes" />
+    <meta content="default-src 'self' https://code.jquery.com/jquery-1.10.2.js; https://code.jquery.com/ui/1.10.4/jquery-ui.js; src=//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js style-src 'self'"/>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <script src="js/CreateNote.js"></script>
+     <script src="js/Store.js"></script>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <style type="text/css"> </style>
+  </head>
+  <body>
+    <div id="header" class="col-xs-12"><h1>Side Note</h1></div>
+    <div id="main" class="container">
+      <div class="row">
+        <div class="col-xs-3">
+            <label>Title</label>
+        </div>
+        <div class="col-xs-6">
+            <input type="textfield" class="title form-control" name="title" id="userInput">
+        </div>
+        <div class="col-xs-3">
+          <input type="button" name="Create Note" class="save-button btn btn-success btn-md" value="Create Note" id="addButton">
+        </div>
+      </div>
+      <div id="NotesGroup">
+      </div>
+    </div>
+  </body>
+</html>
+
